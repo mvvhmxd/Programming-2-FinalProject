@@ -131,11 +131,13 @@
     <ClCompile Include="FileHandler.cpp" />
     <ClCompile Include="MarkSheet.cpp" />
     <ClCompile Include="Programming-2-FinalProject.cpp" />
+    <ClCompile Include="SearchEngine.cpp" />
     <ClCompile Include="Student.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Admin.h" />
     <ClInclude Include="MarkSheet.h" />
+    <ClInclude Include="SearchEngine.h" />
     <ClInclude Include="Student.h" />
   </ItemGroup>
   <ItemGroup>
