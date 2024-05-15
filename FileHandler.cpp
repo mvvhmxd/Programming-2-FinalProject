@@ -1,4 +1,3 @@
-// FileHandler.cpp
 #include "FileHandler.h"
 #include <fstream>
 #include <sstream>
