@@ -134,12 +134,14 @@
     <ClCompile Include="Programming-2-FinalProject.cpp" />
     <ClCompile Include="SearchEngine.cpp" />
     <ClCompile Include="Student.cpp" />
+    <ClCompile Include="StudentManagementSystem.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Admin.h" />
     <ClInclude Include="MarkSheet.h" />
     <ClInclude Include="PasswordManger.h" />
     <ClInclude Include="Student.h" />
+    <ClInclude Include="StudentManagementSystem.h" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FileHandler.h" />
