@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Programming-2-FinalProject.cpp">
+    <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Student.cpp">
@@ -30,13 +30,16 @@
     <ClCompile Include="MarkSheet.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="PasswordManger.cpp">
+    <ClCompile Include="PasswordManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="SearchEngine.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="StudentManagementSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -53,10 +56,13 @@
     <ClInclude Include="MarkSheet.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="PasswordManger.h">
+    <ClInclude Include="PasswordManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="StudentManagementSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

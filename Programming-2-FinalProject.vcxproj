@@ -130,8 +130,9 @@
     <ClCompile Include="Admin.cpp" />
     <ClCompile Include="FileHandler.cpp" />
     <ClCompile Include="MarkSheet.cpp" />
-    <ClCompile Include="PasswordManger.cpp" />
-    <ClCompile Include="Programming-2-FinalProject.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="PasswordManager.cpp" />
+    <ClCompile Include="Main.cpp" />
     <ClCompile Include="SearchEngine.cpp" />
     <ClCompile Include="Student.cpp" />
     <ClCompile Include="StudentManagementSystem.cpp" />
@@ -139,7 +140,8 @@
   <ItemGroup>
     <ClInclude Include="Admin.h" />
     <ClInclude Include="MarkSheet.h" />
-    <ClInclude Include="PasswordManger.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="PasswordManager.h" />
     <ClInclude Include="Student.h" />
     <ClInclude Include="StudentManagementSystem.h" />
   </ItemGroup>
