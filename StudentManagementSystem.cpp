@@ -28,6 +28,7 @@ void StudentManagementSystem::delete_student_record(const string& student_id) {
     students.erase(remove_if(students.begin(), students.end(),
         [&student_id](const Student& s) { return s.student_id == student_id; }),
         students.end());
+
 }
 
 bool StudentManagementSystem::change_admin_password(const string& old_password, const string& new_password) {

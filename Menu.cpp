@@ -14,7 +14,7 @@ void Menu::display() {
     cout << "5. Change Admin Password\n";
     cout << "6. Exit\n";
     cout << "============================================================\n";
-    cout << "Enter your choice: ";
+   
 }
 
 void Menu::run() {
@@ -79,6 +79,7 @@ void Menu::run() {
             cout << "Enter student ID: ";
             cin >> id;
             sms.delete_student_record(id);
+            cout << "Record Deleted successfully.\n";
             break;
         }
         case '5': {

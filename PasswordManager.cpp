@@ -20,7 +20,7 @@ bool PasswordManager::validate_password(const string& password) {
 string PasswordManager::encrypt_password(const string& password) {
     string encrypted;
     for (char c : password) {
-        encrypted += static_cast<char>(c + 3); // Simple Caesar cipher for example purposes
+        encrypted += static_cast<char>(c + 3); //Caesar cipher encryption
     }
     return encrypted;
 }
